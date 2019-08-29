@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirstBlogging", "EFCodeFirstBlogging\EFCodeFirstBlogging.csproj", "{CD66AD11-7729-4D69-A64F-AD7662D60E1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirstBlogging.Tests", "EFCodeFirstBlogging.Tests\EFCodeFirstBlogging.Tests.csproj", "{F9827D73-595C-4A41-A68B-E724B42D0492}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD66AD11-7729-4D69-A64F-AD7662D60E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD66AD11-7729-4D69-A64F-AD7662D60E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD66AD11-7729-4D69-A64F-AD7662D60E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD66AD11-7729-4D69-A64F-AD7662D60E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9827D73-595C-4A41-A68B-E724B42D0492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9827D73-595C-4A41-A68B-E724B42D0492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9827D73-595C-4A41-A68B-E724B42D0492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9827D73-595C-4A41-A68B-E724B42D0492}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
