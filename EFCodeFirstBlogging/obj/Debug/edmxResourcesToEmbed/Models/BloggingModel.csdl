@@ -7,6 +7,7 @@
       <End Role="Blogs" EntitySet="Blogs" />
       <End Role="Posts" EntitySet="Posts" />
     </AssociationSet>
+    <EntitySet Name="Users" EntityType="BloggingModel.User" />
   </EntityContainer>
   <EntityType Name="Blog">
     <Key>
@@ -41,4 +42,14 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Type="Int32" Name="UserId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" />
+    <Property Type="String" Name="Email" Nullable="false" />
+    <Property Type="String" Name="Phone" Nullable="false" />
+    <Property Type="String" Name="Location" Nullable="false" />
+  </EntityType>
 </Schema>

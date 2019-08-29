@@ -17,5 +17,6 @@ namespace EFCodeFirstBlogging.Models
 
         public DbSet<Blog> Blog { get; set; }
         public DbSet<Post> Post { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
