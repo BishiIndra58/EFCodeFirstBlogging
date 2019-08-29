@@ -56,6 +56,7 @@
             <End Role="Blogs" EntitySet="Blogs" />
             <End Role="Posts" EntitySet="Posts" />
           </AssociationSet>
+          <EntitySet Name="Users" EntityType="BloggingModel.User" />
         </EntityContainer>
         <EntityType Name="Blog">
           <Key>
@@ -90,6 +91,16 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Type="Int32" Name="UserId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" Nullable="false" />
+          <Property Type="String" Name="Email" Nullable="false" />
+          <Property Type="String" Name="Phone" Nullable="false" />
+          <Property Type="String" Name="Location" Nullable="false" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -142,6 +153,7 @@
           <ConnectorPoint PointX="2.25" PointY="1.8939925130208333" />
           <ConnectorPoint PointX="3" PointY="1.8939925130208333" />
         </AssociationConnector>
+        <EntityTypeShape EntityType="BloggingModel.User" Width="1.5" PointX="6.125" PointY="1.5" Height="1.9802864583333331" />
       </Diagram>
     </Diagrams>
   </Designer>
